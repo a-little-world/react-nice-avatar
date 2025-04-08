@@ -90,7 +90,7 @@ export default class ReactNiceAvatar extends Component<NiceAvatarProps> {
             <Hat
               color={config.hatColor}
               style={config.hatStyle} />
-            {config.hatStyle === "none" &&
+            {config.hatStyle === "none" && config.hairStyle !== "bald" &&
               <Hair
                 color={config.hairColor}
                 style={config.hairStyle}

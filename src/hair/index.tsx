@@ -1,5 +1,6 @@
 import React from "react";
 
+import Buzz from "./buzz";
 import Normal from "./normal";
 import Thick from "./thick";
 import Mohawk from "./mohawk";
@@ -9,6 +10,7 @@ import WomanShort from "./womanShort";
 export default function hair(props: { style: string, color: string, colorRandom: boolean }): SVGElement {
   const { style, color, colorRandom } = props;
   switch (style) {
+    case "buzz": return <Buzz color={color} colorRandom={colorRandom} />;
     case "thick": return <Thick color={color} colorRandom={colorRandom} />;
     case "mohawk": return <Mohawk color={color} colorRandom={colorRandom} />;
     case "womanLong": return <WomanLong color={color} />;
