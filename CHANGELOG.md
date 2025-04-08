@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/chilllab/react-nice-avatar/compare/v1.5.0...v1.6.0) (2025-04-08)
+
+
+### Bug Fixes
+
+* add missed babel-loader for dev ([e43d9e4](https://github.com/chilllab/react-nice-avatar/commitse43d9e47d87d5dcf1337eca64fef7e51f0a5409c))
+
 ## [1.5.0](https://github.com/chilllab/react-nice-avatar/compare/v1.4.1...v1.5.0) (2023-11-28)
 
 
