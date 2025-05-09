@@ -8,8 +8,8 @@ export default function hatHijab(props: { color: string }): SVGElement {
       style={{
         position: "absolute",
         bottom: "-4%",
-        left: "10.3%",
-        width: "75%",
+        left: "9.5%",
+        width: "76%",
         height: "100%",
         zIndex: 2,
       }}
